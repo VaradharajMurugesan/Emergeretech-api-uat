@@ -1,0 +1,271 @@
+[
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.AuthenticateController",
+    "Method": "Login",
+    "RelativePath": "api/Authenticate/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "EmergereJobCareerWebApi.Authentication.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.AuthenticateController",
+    "Method": "Register",
+    "RelativePath": "api/Authenticate/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "EmergereJobCareerWebApi.Authentication.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.AuthenticateController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/Authenticate/register-admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "EmergereJobCareerWebApi.Authentication.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.ContactUsController",
+    "Method": "InsertContact",
+    "RelativePath": "api/ContactUs/AddContact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contact",
+        "Type": "EmergereJobCareerWebApi.Models.ContactUs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.ContactUsController",
+    "Method": "Get",
+    "RelativePath": "api/ContactUs/GetAllContacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.JobDetailController",
+    "Method": "AddJob",
+    "RelativePath": "api/JobDetail/AddJob",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "job",
+        "Type": "EmergereJobCareerWebApi.Models.JobDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.JobDetailController",
+    "Method": "DeleteJob",
+    "RelativePath": "api/JobDetail/DeleteJob",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "job_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.JobDetailController",
+    "Method": "Get",
+    "RelativePath": "api/JobDetail/GetAllJobs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paging",
+        "Type": "EmergereJobCareerWebApi.Models.Paging",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.JobDetailController",
+    "Method": "getJobDetail_by_ID",
+    "RelativePath": "api/JobDetail/GetJob_by_ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "job_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.JobDetailController",
+    "Method": "getJobDetail_by_name",
+    "RelativePath": "api/JobDetail/GetJob_by_Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.JobDetailController",
+    "Method": "UpdateJob_by_id",
+    "RelativePath": "api/JobDetail/Update_Job_by_ID",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "job",
+        "Type": "EmergereJobCareerWebApi.Models.JobDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.ResumeDetailController",
+    "Method": "Delete",
+    "RelativePath": "api/ResumeDetail/DeleteResume",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resume_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.ResumeDetailController",
+    "Method": "Get",
+    "RelativePath": "api/ResumeDetail/GetResume",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resume_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.ResumeDetailController",
+    "Method": "Get",
+    "RelativePath": "api/ResumeDetail/GetResumeList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paging",
+        "Type": "EmergereJobCareerWebApi.Models.Paging",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmergereJobCareerWebApi.Controllers.ResumeDetailController",
+    "Method": "Post",
+    "RelativePath": "api/ResumeDetail/UploadResume",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "candidateName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dateOfBirth",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileToUpload",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "jobId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "joiningDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "aboutCandidate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "candidateEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

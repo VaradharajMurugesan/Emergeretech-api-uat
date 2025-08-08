@@ -1,0 +1,474 @@
+{
+	"info": {
+		"_postman_id": "a0f2f862-8ebb-4cbd-8e0a-9873834e2e2f",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20256527"
+	},
+	"item": [
+		{
+			"name": "EmergereJobCareer",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"EmergereUser1\",\r\n    \"email\": \"varadharaj@emergertech.com\",\r\n    \"password\": \"Testing@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://emergeretech-api-test.azurewebsites.net/api/Authenticate/register",
+							"protocol": "https",
+							"host": [
+								"emergeretech-api-test",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Authenticate",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"Testing3\",\r\n  \"password\": \"Testing3@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://emergeretech-api-test.azurewebsites.net/api/Authenticate/login",
+							"protocol": "https",
+							"host": [
+								"emergeretech-api-test",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"Authenticate",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllJobs",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGluZzMiLCJqdGkiOiJhMGI2OTllZS1mYzdkLTRmNWQtYWM0NS1iM2FlNDc2MjRiZWIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTY3MTYwNzg0MywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzA1MSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjcwNTEifQ.Wal4ph2_8MUWnhPOYuA0yaj3iTTPU75S4ID6Xl5mT1U",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"page_number\": 1,\r\n    \"no_of_records\": 4,\r\n    \"sort_by\": \"ASC\",\r\n    \"sort_by_column\": \"JobTitle\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://emergeretech-api-test.azurewebsites.net/api/JobDetail/GetAllJobs",
+							"protocol": "https",
+							"host": [
+								"emergeretech-api-test",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"JobDetail",
+								"GetAllJobs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetJob_by_ID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGluZzMiLCJqdGkiOiJhMGI2OTllZS1mYzdkLTRmNWQtYWM0NS1iM2FlNDc2MjRiZWIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTY3MTYwNzg0MywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzA1MSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjcwNTEifQ.Wal4ph2_8MUWnhPOYuA0yaj3iTTPU75S4ID6Xl5mT1U",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://emergeretech-api-test.azurewebsites.net/api/JobDetail/GetJob_by_ID?job_id=1",
+							"protocol": "https",
+							"host": [
+								"emergeretech-api-test",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"JobDetail",
+								"GetJob_by_ID"
+							],
+							"query": [
+								{
+									"key": "job_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetJob_by_Name",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGluZzMiLCJqdGkiOiJhMGI2OTllZS1mYzdkLTRmNWQtYWM0NS1iM2FlNDc2MjRiZWIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTY3MTYwNzg0MywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzA1MSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjcwNTEifQ.Wal4ph2_8MUWnhPOYuA0yaj3iTTPU75S4ID6Xl5mT1U",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://emergeretech-api-test.azurewebsites.net/api/JobDetail/GetJob_by_Name?jobname=adv",
+							"protocol": "https",
+							"host": [
+								"emergeretech-api-test",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"JobDetail",
+								"GetJob_by_Name"
+							],
+							"query": [
+								{
+									"key": "jobname",
+									"value": "adv"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddJob",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGluZzMiLCJqdGkiOiI2NzNhYTkxNC1kNzdhLTQwNmMtYWMyZi04NGNiZDg1ZmM2M2MiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTY3MDc2MjEwNywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzA1MSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjcwNTEifQ.uzkuDdb2I-aUAsdV0F2N5len_YuCefKC3IfQbA59tYY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"jobTitle\": \"Programmer Analyst\",\r\n        \"jobDescription\": \"Web development, C#, SQL Server\",\r\n        \"noOfVacancies\": \"4\",\r\n        \"expectedExperience\": \"1\",\r\n        \"jobLocation\": \"Coimbatore\",\r\n        \"postedOn\": \"2022-09-10\"\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://emergeretech-api-test.azurewebsites.net/api/JobDetail/AddJob",
+							"protocol": "https",
+							"host": [
+								"emergeretech-api-test",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"JobDetail",
+								"AddJob"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteJob",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGluZzMiLCJqdGkiOiI2NzNhYTkxNC1kNzdhLTQwNmMtYWMyZi04NGNiZDg1ZmM2M2MiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTY3MDc2MjEwNywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzA1MSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjcwNTEifQ.uzkuDdb2I-aUAsdV0F2N5len_YuCefKC3IfQbA59tYY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://emergeretech-api-test.azurewebsites.net/api/JobDetail/DeleteJob?title=Testing2",
+							"protocol": "https",
+							"host": [
+								"emergeretech-api-test",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"JobDetail",
+								"DeleteJob"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Testing2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ResumeList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGluZzMiLCJqdGkiOiJhMGI2OTllZS1mYzdkLTRmNWQtYWM0NS1iM2FlNDc2MjRiZWIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTY3MTYwNzg0MywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzA1MSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjcwNTEifQ.Wal4ph2_8MUWnhPOYuA0yaj3iTTPU75S4ID6Xl5mT1U",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "https://emergeretech-api-test.azurewebsites.net/api/ResumeDetail/GetResumeList",
+							"protocol": "https",
+							"host": [
+								"emergeretech-api-test",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"ResumeDetail",
+								"GetResumeList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetResume",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGluZzMiLCJqdGkiOiI2NzNhYTkxNC1kNzdhLTQwNmMtYWMyZi04NGNiZDg1ZmM2M2MiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTY3MDc2MjEwNywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzA1MSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjcwNTEifQ.uzkuDdb2I-aUAsdV0F2N5len_YuCefKC3IfQbA59tYY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://emergeretech-api-test.azurewebsites.net/api/ResumeDetail/GetResume?resume_id=1",
+							"protocol": "https",
+							"host": [
+								"emergeretech-api-test",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"ResumeDetail",
+								"GetResume"
+							],
+							"query": [
+								{
+									"key": "resume_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UploadResume",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGluZzMiLCJqdGkiOiI2NzNhYTkxNC1kNzdhLTQwNmMtYWMyZi04NGNiZDg1ZmM2M2MiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTY3MDc2MjEwNywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzA1MSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjcwNTEifQ.uzkuDdb2I-aUAsdV0F2N5len_YuCefKC3IfQbA59tYY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "JobTitle",
+									"value": "QA Tester",
+									"type": "text"
+								},
+								{
+									"key": "candidate_name",
+									"value": "David",
+									"type": "text"
+								},
+								{
+									"key": "DOB",
+									"value": "1991-10-10",
+									"type": "text"
+								},
+								{
+									"key": "FileToUpload",
+									"type": "file",
+									"src": "/C:/Users/intel/Documents/my.pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://emergeretech-api-test.azurewebsites.net/api/ResumeDetail/UploadResume",
+							"protocol": "https",
+							"host": [
+								"emergeretech-api-test",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"ResumeDetail",
+								"UploadResume"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteResume",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGluZzMiLCJqdGkiOiI2NzNhYTkxNC1kNzdhLTQwNmMtYWMyZi04NGNiZDg1ZmM2M2MiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsImV4cCI6MTY3MDc2MjEwNywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzA1MSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjcwNTEifQ.uzkuDdb2I-aUAsdV0F2N5len_YuCefKC3IfQbA59tYY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://emergeretech-api-test.azurewebsites.net/api/ResumeDetail/DeleteResume?resume_id=1",
+							"protocol": "https",
+							"host": [
+								"emergeretech-api-test",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"ResumeDetail",
+								"DeleteResume"
+							],
+							"query": [
+								{
+									"key": "resume_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

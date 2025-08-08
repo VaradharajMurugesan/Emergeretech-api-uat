@@ -1,0 +1,6 @@
+Azure CI and CD
+https://www.c-sharpcorner.com/article/deploy-net-api-to-azure-app-service-through-azure-devops/
+
+
+ASP .net core Web API with Dapper and Dataaccess
+https://www.youtube.com/watch?v=5tYSO5mAjXs
