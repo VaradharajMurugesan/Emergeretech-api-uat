@@ -22,7 +22,7 @@ namespace EmergereJobCareerWebApi.Controllers
         // GET: api/<ValuesController>
         private readonly IUploadResumeService _resumeService;
         private readonly ILoggerManager _logger;
-        private string _connectingString = "";
+        private string _connectingString = Environment.GetEnvironmentVariable("BlobConnectionString");
         private string _container = "uploadresume";
         private readonly IDBService _dbService;
 
