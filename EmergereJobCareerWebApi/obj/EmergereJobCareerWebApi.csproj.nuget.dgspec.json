@@ -53,7 +53,7 @@
           "dependencies": {
             "Azure.Storage.Blobs": {
               "target": "Package",
-              "version": "[12.14.1, )"
+              "version": "[12.25.0, )"
             },
             "Dapper": {
               "target": "Package",

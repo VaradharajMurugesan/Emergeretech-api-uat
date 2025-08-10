@@ -11,3 +11,7 @@
 2025-08-10 22:25:31.0873|Error|EmergereJobCareerWebApi.LoggerManager|Exception occured in SendEmail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to 
 2025-08-10 22:27:33.1544|Error|EmergereJobCareerWebApi.LoggerManager|Exception occured: Incorrect date value: '02-02-1996' for column 'DOB' at row 1 
 2025-08-10 22:27:33.9852|Info|EmergereJobCareerWebApi.LoggerManager|Successfully sent email to the corresponding recipient(s) on resume upload 
+2025-08-10 22:42:48.5295|Error|EmergereJobCareerWebApi.LoggerManager|Exception occured: Incorrect date value: '02-02-1996' for column 'DOB' at row 1 
+2025-08-10 22:42:49.3715|Info|EmergereJobCareerWebApi.LoggerManager|Successfully sent email to the corresponding recipient(s) on resume upload 
+2025-08-10 23:12:44.5849|Error|EmergereJobCareerWebApi.LoggerManager|Exception occured: Incorrect date value: '02-02-1996' for column 'DOB' at row 1 
+2025-08-10 23:12:45.3388|Info|EmergereJobCareerWebApi.LoggerManager|Successfully sent email to the corresponding recipient(s) on resume upload 

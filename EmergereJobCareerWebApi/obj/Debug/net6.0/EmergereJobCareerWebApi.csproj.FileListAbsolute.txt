@@ -494,3 +494,6 @@ D:\Emergere\Emergere Computing Solutions\Emergere-API-UAT-bloburl\Emergeretech-a
 D:\Emergere\Emergere Computing Solutions\Emergere-API-UAT-bloburl\Emergeretech-api-uat\EmergereJobCareerWebApi\obj\Debug\net6.0\EmergereJobCareerWebApi.pdb
 D:\Emergere\Emergere Computing Solutions\Emergere-API-UAT-bloburl\Emergeretech-api-uat\EmergereJobCareerWebApi\obj\Debug\net6.0\EmergereJobCareerWebApi.genruntimeconfig.cache
 D:\Emergere\Emergere Computing Solutions\Emergere-API-UAT-bloburl\Emergeretech-api-uat\EmergereJobCareerWebApi\obj\Debug\net6.0\ref\EmergereJobCareerWebApi.dll
+D:\Emergere\Emergere Computing Solutions\Emergere-API-UAT-bloburl\Emergeretech-api-uat\EmergereJobCareerWebApi\bin\Debug\net6.0\System.ClientModel.dll
+D:\Emergere\Emergere Computing Solutions\Emergere-API-UAT-bloburl\Emergeretech-api-uat\EmergereJobCareerWebApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Emergere\Emergere Computing Solutions\Emergere-API-UAT-bloburl\Emergeretech-api-uat\EmergereJobCareerWebApi\bin\Debug\net6.0\System.Text.Json.dll
