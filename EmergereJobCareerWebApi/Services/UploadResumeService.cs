@@ -103,7 +103,7 @@ namespace EmergereJobCareerWebApi.Services
             {
                 EncryptDecrypt objPassword = new EncryptDecrypt();
 
-                var smtpClient = new SmtpClient("smtp.gmail.com")
+                var smtpClient = new SmtpClient(_configuration.GetValue<string>("Email:SMPTServer"))
                 {
                     Port = _configuration.GetValue<int>("Email:Port"),
                     Credentials = new NetworkCredential(_configuration.GetValue<string>("Email:EmailUser"), objPassword.Decrypt(_configuration.GetValue<string>("Email:EmailPwd"))),

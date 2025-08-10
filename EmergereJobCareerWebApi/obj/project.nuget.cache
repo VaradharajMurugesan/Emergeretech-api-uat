@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZkFiQHkHjLQ=",
+  "dgSpecHash": "SuGWlVDTVeM=",
   "success": true,
-  "projectFilePath": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\EmergereJobCareerWebApi.csproj",
+  "projectFilePath": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\EmergereJobCareerWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\varadharaj\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\varadharaj\\.nuget\\packages\\azure.storage.blobs\\12.14.1\\azure.storage.blobs.12.14.1.nupkg.sha512",

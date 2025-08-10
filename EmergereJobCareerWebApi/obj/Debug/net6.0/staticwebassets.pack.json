@@ -1,275 +1,275 @@
 {
   "Files": [
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EmergereJobCareerWebApi.bundle.scp.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EmergereJobCareerWebApi.bundle.scp.css",
       "PackagePath": "staticwebassets\\EmergereJobCareerWebApi.u9nza0gmgc.bundle.scp.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\Bill_test.PDF",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\Bill_test.PDF",
       "PackagePath": "staticwebassets\\Bill_test.PDF"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\DukeEnergy_BillingDate.xlsx",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\DukeEnergy_BillingDate.xlsx",
       "PackagePath": "staticwebassets\\DukeEnergy_BillingDate.xlsx"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\SQLQuery1.sql",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\SQLQuery1.sql",
       "PackagePath": "staticwebassets\\SQLQuery1.sql"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\css\\site.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\download_path.ini",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\download_path.ini",
       "PackagePath": "staticwebassets\\download_path.ini"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\favicon.ico",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\js\\site.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\no_img_example.PDF",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\no_img_example.PDF",
       "PackagePath": "staticwebassets\\no_img_example.PDF"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\sample.wav",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\sample.wav",
       "PackagePath": "staticwebassets\\sample.wav"
     },
     {
-      "Id": "D:\\Emergere\\Emergere Computing Solutions\\EmergereJobCareerWebApi_JWTMySQL\\EmergereJobCareerWebApi\\wwwroot\\urls.txt",
+      "Id": "D:\\Emergere\\Emergere Computing Solutions\\Emergere-API-UAT-bloburl\\Emergeretech-api-uat\\EmergereJobCareerWebApi\\wwwroot\\urls.txt",
       "PackagePath": "staticwebassets\\urls.txt"
     },
     {

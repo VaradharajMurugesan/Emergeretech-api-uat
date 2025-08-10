@@ -22,7 +22,7 @@ namespace EmergereJobCareerWebApi.Controllers
         // GET: api/<ValuesController>
         private readonly IUploadResumeService _resumeService;
         private readonly ILoggerManager _logger;
-        private string _connectingString = Environment.GetEnvironmentVariable("BlobConnectionString");
+        private string _connectingString;
         private string _container = "uploadresume";
         private readonly IDBService _dbService;
 
@@ -30,8 +30,8 @@ namespace EmergereJobCareerWebApi.Controllers
         {
             _resumeService = resumeService;
             _logger = logger;
-            _dbService = dbService; 
-
+            _dbService = dbService;
+            _connectingString = Environment.GetEnvironmentVariable("BlobConnectionString");
         }
      
         [HttpPost("GetResumeList")]
