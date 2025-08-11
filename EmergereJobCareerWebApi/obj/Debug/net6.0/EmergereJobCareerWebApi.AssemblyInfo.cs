@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmergereJobCareerWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1066490c9289ae7e8ca84cb3c33a745b93eb1f7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b10fab6e06e1fe01d07b422146e97db03041c9d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmergereJobCareerWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmergereJobCareerWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

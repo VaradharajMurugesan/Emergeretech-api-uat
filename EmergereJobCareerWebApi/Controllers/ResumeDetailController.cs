@@ -81,9 +81,10 @@ namespace EmergereJobCareerWebApi.Controllers
                 _logger.LogInfo("Invoked the Upload Resume API");
                 if (model == null || model.FileToUpload == null || model.FileToUpload.Length == 0)
                     return Content("file not selected");
-                _logger.LogInfo("Before Selectiong Job details");
-                string jobTitle = await _dbService.GetAsync<string>("SELECT JobTitle FROM tbl_Job_career WHERE job_id="+model.job_id, new {});
-                _logger.LogInfo("Before Uploading resumes to Blob Container");
+                //_logger.LogInfo("Before Selectiong Job details");
+                //string jobTitle = await _dbService.GetAsync<string>("SELECT JobTitle FROM tbl_Job_career WHERE job_id="+model.job_id, new {});
+                //_logger.LogInfo("Before Uploading resumes to Blob Container");
+                string jobTitle = "Testing";
                 var path = Path.Combine(Directory.GetCurrentDirectory(), "Resumes", model.FileToUpload.FileName);
                 string file_extension = System.IO.Path.GetExtension(model.FileToUpload.FileName);
                 string file_name = model.candidate_name + "_" + DateTime.UtcNow.ToString("yyyyMMddHHmmssfff",

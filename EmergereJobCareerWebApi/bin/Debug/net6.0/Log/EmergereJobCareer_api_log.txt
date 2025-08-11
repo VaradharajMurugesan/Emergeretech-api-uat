@@ -64,3 +64,13 @@
 2025-08-11 17:41:24.7300|Info|EmergereJobCareerWebApi.LoggerManager|ResumeDetailController initialized. 
 2025-08-11 17:41:24.9283|Info|EmergereJobCareerWebApi.LoggerManager|Retrieving the Resume for the job title: .10 
 2025-08-11 17:41:28.4748|Info|EmergereJobCareerWebApi.LoggerManager|Successfully retrieved resume details for the job title: 10 
+2025-08-11 18:13:00.6003|Info|EmergereJobCareerWebApi.LoggerManager|ResumeDetailController initialized. 
+2025-08-11 18:13:01.7342|Info|EmergereJobCareerWebApi.LoggerManager|Invoked the Upload Resume API 
+2025-08-11 18:13:01.7625|Info|EmergereJobCareerWebApi.LoggerManager|Before Establishing connection to the blob 
+2025-08-11 18:13:01.8976|Info|EmergereJobCareerWebApi.LoggerManager|Before calling the blob container upload 
+2025-08-11 18:13:03.0377|Info|EmergereJobCareerWebApi.LoggerManager|After calling the blob container upload 
+2025-08-11 18:13:03.0377|Info|EmergereJobCareerWebApi.LoggerManager|Inserting resume details into the database 
+2025-08-11 18:13:06.4216|Info|EmergereJobCareerWebApi.LoggerManager|Before sending email 
+2025-08-11 18:13:09.1072|Info|EmergereJobCareerWebApi.LoggerManager|Successfully inserted resume details into the database 
+2025-08-11 18:13:09.4038|Info|EmergereJobCareerWebApi.LoggerManager|Successfully sent email to the corresponding recipient(s) on resume upload 
+2025-08-11 18:13:09.4038|Info|EmergereJobCareerWebApi.LoggerManager|After sending email 
