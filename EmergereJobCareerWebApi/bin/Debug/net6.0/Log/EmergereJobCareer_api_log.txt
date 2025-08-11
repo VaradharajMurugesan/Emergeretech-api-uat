@@ -25,3 +25,39 @@
 2025-08-11 15:20:49.4575|Error|EmergereJobCareerWebApi.LoggerManager|Exception occured: Incorrect date value: '05-05-2000' for column 'DOB' at row 1 
 2025-08-11 15:20:50.0248|Info|EmergereJobCareerWebApi.LoggerManager|Successfully sent email to the corresponding recipient(s) on resume upload 
 2025-08-11 15:20:50.0248|Info|EmergereJobCareerWebApi.LoggerManager|After sending email 
+2025-08-11 15:42:14.2607|Info|EmergereJobCareerWebApi.LoggerManager|Invoked the Upload Resume API 
+2025-08-11 15:42:14.2894|Info|EmergereJobCareerWebApi.LoggerManager|Before Selectiong Job details 
+2025-08-11 15:42:16.2384|Info|EmergereJobCareerWebApi.LoggerManager|Before Uploading resumes to Blob Container 
+2025-08-11 15:42:16.2384|Info|EmergereJobCareerWebApi.LoggerManager|Before Establishing connection to the blob 
+2025-08-11 15:42:16.3050|Info|EmergereJobCareerWebApi.LoggerManager|Before calling the blob container upload 
+2025-08-11 15:42:17.2385|Info|EmergereJobCareerWebApi.LoggerManager|After calling the blob container upload 
+2025-08-11 15:51:55.6075|Info|EmergereJobCareerWebApi.LoggerManager|Invoked the Upload Resume API 
+2025-08-11 15:52:06.2540|Info|EmergereJobCareerWebApi.LoggerManager|Before Selectiong Job details 
+2025-08-11 15:52:08.0495|Info|EmergereJobCareerWebApi.LoggerManager|Before Uploading resumes to Blob Container 
+2025-08-11 15:52:08.0495|Info|EmergereJobCareerWebApi.LoggerManager|Before Establishing connection to the blob 
+2025-08-11 15:52:08.1088|Info|EmergereJobCareerWebApi.LoggerManager|Before calling the blob container upload 
+2025-08-11 15:52:09.0123|Info|EmergereJobCareerWebApi.LoggerManager|After calling the blob container upload 
+2025-08-11 15:52:09.0123|Info|EmergereJobCareerWebApi.LoggerManager|Inserting resume details into the database 
+2025-08-11 15:52:14.4829|Info|EmergereJobCareerWebApi.LoggerManager|Before sending email 
+2025-08-11 15:53:20.2732|Info|EmergereJobCareerWebApi.LoggerManager|Invoked the Upload Resume API 
+2025-08-11 15:53:20.2974|Info|EmergereJobCareerWebApi.LoggerManager|Before Selectiong Job details 
+2025-08-11 15:53:22.2054|Info|EmergereJobCareerWebApi.LoggerManager|Before Uploading resumes to Blob Container 
+2025-08-11 15:53:22.2054|Info|EmergereJobCareerWebApi.LoggerManager|Before Establishing connection to the blob 
+2025-08-11 15:53:22.2691|Info|EmergereJobCareerWebApi.LoggerManager|Before calling the blob container upload 
+2025-08-11 15:53:23.1814|Info|EmergereJobCareerWebApi.LoggerManager|After calling the blob container upload 
+2025-08-11 15:53:23.1814|Info|EmergereJobCareerWebApi.LoggerManager|Inserting resume details into the database 
+2025-08-11 15:53:27.2087|Info|EmergereJobCareerWebApi.LoggerManager|Before sending email 
+2025-08-11 15:53:40.4368|Error|EmergereJobCareerWebApi.LoggerManager|Exception occured: Incorrect date value: '03-04-2025' for column 'joining_date' at row 1 
+2025-08-11 15:53:41.3391|Info|EmergereJobCareerWebApi.LoggerManager|Successfully sent email to the corresponding recipient(s) on resume upload 
+2025-08-11 15:53:41.3391|Info|EmergereJobCareerWebApi.LoggerManager|After sending email 
+2025-08-11 15:54:06.8917|Info|EmergereJobCareerWebApi.LoggerManager|Invoked the Upload Resume API 
+2025-08-11 15:54:06.8917|Info|EmergereJobCareerWebApi.LoggerManager|Before Selectiong Job details 
+2025-08-11 15:54:07.3582|Info|EmergereJobCareerWebApi.LoggerManager|Before Uploading resumes to Blob Container 
+2025-08-11 15:54:07.3582|Info|EmergereJobCareerWebApi.LoggerManager|Before Establishing connection to the blob 
+2025-08-11 15:54:07.3582|Info|EmergereJobCareerWebApi.LoggerManager|Before calling the blob container upload 
+2025-08-11 15:54:07.6040|Info|EmergereJobCareerWebApi.LoggerManager|After calling the blob container upload 
+2025-08-11 15:54:07.6040|Info|EmergereJobCareerWebApi.LoggerManager|Inserting resume details into the database 
+2025-08-11 15:54:10.9235|Info|EmergereJobCareerWebApi.LoggerManager|Before sending email 
+2025-08-11 15:54:12.3748|Info|EmergereJobCareerWebApi.LoggerManager|Successfully inserted resume details into the database 
+2025-08-11 15:54:20.0147|Info|EmergereJobCareerWebApi.LoggerManager|Successfully sent email to the corresponding recipient(s) on resume upload 
+2025-08-11 15:54:20.0147|Info|EmergereJobCareerWebApi.LoggerManager|After sending email 

@@ -81,13 +81,13 @@ namespace EmergereJobCareerWebApi.Services
         {
             try
             {
-
+                _logger.LogInfo("Inserting resume details into the database");
                 var query = "INSERT INTO tbl_resume_upload (candidate_name,DOB,resume_link, job_id, joining_date, about_candidate, gender, candidate_email) VALUES (@candidate_name,@DOB,'" + path + "', @job_id, @joining_date, @about_candidate, @gender, @candidate_email)";
                 var result =
                     await _dbService.EditData(
                         query,
                         resume);
-
+                _logger.LogInfo("Successfully inserted resume details into the database");
                 return true;
             }
             catch(Exception ex)

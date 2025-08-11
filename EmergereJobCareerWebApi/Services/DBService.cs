@@ -12,7 +12,10 @@ namespace EmergereJobCareerWebApi.Services
 
         public DBService(IConfiguration configuration)
         {
+            Console.WriteLine("DBService Constructor Called");
+            Console.WriteLine("Connection String: " + configuration.GetConnectionString("SqlConnection"));
             _db = new MySqlConnection(configuration.GetConnectionString("SqlConnection"));
+            Console.WriteLine("DBService Constructor Ends");
         }
 
         public async Task<T> GetAsync<T>(string command, object parms)
