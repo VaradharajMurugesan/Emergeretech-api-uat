@@ -84,31 +84,31 @@ namespace EmergereJobCareerWebApi.Controllers
                 //_logger.LogInfo("Before Selectiong Job details");
                 //string jobTitle = await _dbService.GetAsync<string>("SELECT JobTitle FROM tbl_Job_career WHERE job_id="+model.job_id, new {});
                 //_logger.LogInfo("Before Uploading resumes to Blob Container");
-                string jobTitle = "Testing";
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "Resumes", model.FileToUpload.FileName);
-                string file_extension = System.IO.Path.GetExtension(model.FileToUpload.FileName);
-                string file_name = model.candidate_name + "_" + DateTime.UtcNow.ToString("yyyyMMddHHmmssfff",
-                                            CultureInfo.InvariantCulture)+ file_extension;
-                using (var stream = new FileStream(path, FileMode.Create))
-                {
+                //string jobTitle = "Testing";
+                //var path = Path.Combine(Directory.GetCurrentDirectory(), "Resumes", model.FileToUpload.FileName);
+                //string file_extension = System.IO.Path.GetExtension(model.FileToUpload.FileName);
+                //string file_name = model.candidate_name + "_" + DateTime.UtcNow.ToString("yyyyMMddHHmmssfff",
+                //                            CultureInfo.InvariantCulture)+ file_extension;
+                //using (var stream = new FileStream(path, FileMode.Create))
+                //{
 
-                    await model.FileToUpload.CopyToAsync(stream);
-                }
+                //    await model.FileToUpload.CopyToAsync(stream);
+                //}
 
-                _logger.LogInfo("Before Establishing connection to the blob");
-                BlobServiceClient blobServiceClient = new BlobServiceClient(_connectingString);
-                BlobContainerClient blobContainerClient = blobServiceClient.GetBlobContainerClient(_container);
-                BlobClient blobClient = blobContainerClient.GetBlobClient(file_name);
-                _logger.LogInfo("Before calling the blob container upload");
-                await blobClient.UploadAsync(path, true);
-                _logger.LogInfo("After calling the blob container upload");
-                var blobUrl = blobClient.Uri.AbsoluteUri;
+                //_logger.LogInfo("Before Establishing connection to the blob");
+                //BlobServiceClient blobServiceClient = new BlobServiceClient(_connectingString);
+                //BlobContainerClient blobContainerClient = blobServiceClient.GetBlobContainerClient(_container);
+                //BlobClient blobClient = blobContainerClient.GetBlobClient(file_name);
+                //_logger.LogInfo("Before calling the blob container upload");
+                //await blobClient.UploadAsync(path, true);
+                //_logger.LogInfo("After calling the blob container upload");
+                //var blobUrl = blobClient.Uri.AbsoluteUri;
 
-                var result = _resumeService.InsertResume(model, blobUrl);
+                //var result = _resumeService.InsertResume(model, blobUrl);
 
-                _logger.LogInfo("Before sending email");
-                var emailResult = _resumeService.SendEmail(model, blobUrl, jobTitle);
-                _logger.LogInfo("After sending email");
+                //_logger.LogInfo("Before sending email");
+                //var emailResult = _resumeService.SendEmail(model, blobUrl, jobTitle);
+                //_logger.LogInfo("After sending email");
 
                 return Ok("File uploaded successfully.......");
 
