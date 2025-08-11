@@ -28,10 +28,11 @@ namespace EmergereJobCareerWebApi.Controllers
 
         public ResumeDetailController(IUploadResumeService resumeService, ILoggerManager logger, IDBService dbService)
         {
+            logger.LogInfo("ResumeDetailController initialized.");
             _resumeService = resumeService;
             _logger = logger;
             _dbService = dbService;
-            _logger.LogInfo("ResumeDetailController initialized.");
+            
             _connectingString = Environment.GetEnvironmentVariable("BlobConnectionString");
             _container = "uploadresume";
         }

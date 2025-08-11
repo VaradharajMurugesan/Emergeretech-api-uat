@@ -52,13 +52,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EmergereJobCareerWebApi.u9nza0gmgc.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-btVbEuacLwOZGPX\u002BOTmBVq\u002B3ntj/XNAM2R91M4Tp9do="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022btVbEuacLwOZGPX\u002BOTmBVq\u002B3ntj/XNAM2R91M4Tp9do=\u0022"},{"Name":"Last-Modified","Value":"Mon, 11 Aug 2025 11:07:14 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022btVbEuacLwOZGPX\u002BOTmBVq\u002B3ntj/XNAM2R91M4Tp9do=\u0022"},{"Name":"Last-Modified","Value":"Mon, 11 Aug 2025 12:24:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EmergereJobCareerWebApi/EmergereJobCareerWebApi.u9nza0gmgc.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EmergereJobCareerWebApi.u9nza0gmgc.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u9nza0gmgc"},{"Name":"integrity","Value":"sha256-btVbEuacLwOZGPX\u002BOTmBVq\u002B3ntj/XNAM2R91M4Tp9do="},{"Name":"label","Value":"_content/EmergereJobCareerWebApi/EmergereJobCareerWebApi.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022btVbEuacLwOZGPX\u002BOTmBVq\u002B3ntj/XNAM2R91M4Tp9do=\u0022"},{"Name":"Last-Modified","Value":"Mon, 11 Aug 2025 11:07:14 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1140"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022btVbEuacLwOZGPX\u002BOTmBVq\u002B3ntj/XNAM2R91M4Tp9do=\u0022"},{"Name":"Last-Modified","Value":"Mon, 11 Aug 2025 12:24:58 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EmergereJobCareerWebApi/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
