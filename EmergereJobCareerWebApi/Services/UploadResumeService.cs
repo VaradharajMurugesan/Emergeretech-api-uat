@@ -120,7 +120,7 @@ namespace EmergereJobCareerWebApi.Services
                     Body = String.Format(_configuration.GetValue<string>("Email:EmailBody"), objResume.candidate_name, jobTitle, blobURL),
                     IsBodyHtml = _configuration.GetValue<bool>("Email:IsBodyHtml"),
                 };
-                mailMessage.To.Add(_configuration.GetValue<string>("Email:EmailTo"));
+                mailMessage.To.Add(_configuration.GetValue<string>("Email:EmailToCareer"));
                 mailMessage.CC.Add(_configuration.GetValue<string>("Email:EmailCc"));
                 smtpClient.Send(mailMessage);
                 _logger.LogInfo("Successfully sent email to the corresponding recipient(s) on resume upload");
