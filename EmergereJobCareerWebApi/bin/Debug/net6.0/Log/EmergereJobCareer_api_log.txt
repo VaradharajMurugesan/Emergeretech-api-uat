@@ -76,3 +76,8 @@
 2025-08-11 18:13:09.4038|Info|EmergereJobCareerWebApi.LoggerManager|After sending email 
 2025-08-11 18:20:02.4667|Info|EmergereJobCareerWebApi.LoggerManager|ResumeDetailController initialized. 
 2025-08-11 18:20:03.5465|Info|EmergereJobCareerWebApi.LoggerManager|Invoked the Upload Resume API 
+2025-08-11 18:46:36.0866|Info|EmergereJobCareerWebApi.LoggerManager|ResumeDetailController initialized. 
+2025-08-11 18:46:37.2989|Info|EmergereJobCareerWebApi.LoggerManager|Invoked the Upload Resume API 
+2025-08-11 18:46:41.6799|Info|EmergereJobCareerWebApi.LoggerManager|Inserting resume details into the database 
+2025-08-11 18:46:44.8100|Info|EmergereJobCareerWebApi.LoggerManager|Successfully inserted resume details into the database 
+2025-08-11 18:46:45.6361|Info|EmergereJobCareerWebApi.LoggerManager|Successfully sent email to the corresponding recipient(s) on resume upload 
