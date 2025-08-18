@@ -43,6 +43,7 @@ builder.Services.AddCors(options =>
                                 .AllowAnyMethod();
         });
 });
+Console.WriteLine("Connection String: " + builder.Configuration.GetConnectionString("SqlConnection"));
 //For Entity Framework 
 builder.Services.AddDbContext<emergerecareerdbContext>(options => options.UseMySql(config.GetConnectionString("SqlConnection"), ServerVersion.AutoDetect(config.GetConnectionString("SqlConnection"))));
 //For Identity  

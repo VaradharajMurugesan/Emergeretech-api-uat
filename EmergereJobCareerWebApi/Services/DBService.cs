@@ -11,7 +11,7 @@ namespace EmergereJobCareerWebApi.Services
         private readonly IDbConnection _db;  
 
         public DBService(IConfiguration configuration)
-        {
+        {            
             _db = new MySqlConnection(configuration.GetConnectionString("SqlConnection"));
         }
 
