@@ -108,7 +108,7 @@ namespace EmergereJobCareerWebApi.Controllers
             catch (Exception ex)
             {
                 _logger.LogError("Exception occured: " + ex.Message);
-                return BadRequest("Error occured in UploadResume");
+                return BadRequest(ex.StackTrace+"Error occured in UploadResume");
             }
 
         }
