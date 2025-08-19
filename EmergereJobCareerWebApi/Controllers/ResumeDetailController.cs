@@ -74,7 +74,7 @@ namespace EmergereJobCareerWebApi.Controllers
 
         // POST api/<ValuesController>
         [HttpPost("UploadResume")]
-        public async Task<IActionResult> Post([FromForm] InsertResumeDetail model)
+        public async Task<IActionResult> Post(int resume_id)
         {
             try
             {

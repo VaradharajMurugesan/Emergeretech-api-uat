@@ -362,69 +362,17 @@
         "tags": [
           "ResumeDetail"
         ],
-        "requestBody": {
-          "content": {
-            "multipart/form-data": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "candidateName": {
-                    "type": "string"
-                  },
-                  "dateOfBirth": {
-                    "type": "string"
-                  },
-                  "fileToUpload": {
-                    "type": "string",
-                    "format": "binary"
-                  },
-                  "jobId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "joiningDate": {
-                    "type": "string"
-                  },
-                  "aboutCandidate": {
-                    "type": "string"
-                  },
-                  "gender": {
-                    "type": "string"
-                  },
-                  "candidateEmail": {
-                    "type": "string"
-                  }
-                }
-              },
-              "encoding": {
-                "candidateName": {
-                  "style": "form"
-                },
-                "dateOfBirth": {
-                  "style": "form"
-                },
-                "fileToUpload": {
-                  "style": "form"
-                },
-                "jobId": {
-                  "style": "form"
-                },
-                "joiningDate": {
-                  "style": "form"
-                },
-                "aboutCandidate": {
-                  "style": "form"
-                },
-                "gender": {
-                  "style": "form"
-                },
-                "candidateEmail": {
-                  "style": "form"
-                }
-              }
+        "parameters": [
+          {
+            "name": "resume_id",
+            "in": "query",
+            "style": "form",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "Success"
