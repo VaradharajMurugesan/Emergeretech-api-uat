@@ -74,18 +74,18 @@ namespace EmergereJobCareerWebApi.Controllers
 
         // POST api/<ValuesController>
         [HttpPost("UploadResume")]
-        public async Task<IActionResult> Post([FromForm] InsertResumeDetail model)
+        public async Task<IActionResult> Post(int resume_id)
         {
             try
             {
                 _logger.LogInfo("Invoked the Upload Resume API");
                 //if (model == null || model.FileToUpload == null || model.FileToUpload.Length == 0)
                 //    return Content("file not selected");
-                //string jobTitle = await _dbService.GetAsync<string>("SELECT JobTitle FROM tbl_Job_career WHERE job_id=" + model.job_id, new { });
+                //string jobTitle = await _dbService.GetAsync<string>("SELECT JobTitle FROM tbl_Job_career WHERE job_id="+model.job_id, new {});
                 //var path = Path.Combine(Directory.GetCurrentDirectory(), "Resumes", model.FileToUpload.FileName);
                 //string file_extension = System.IO.Path.GetExtension(model.FileToUpload.FileName);
                 //string file_name = model.candidate_name + "_" + DateTime.UtcNow.ToString("yyyyMMddHHmmssfff",
-                //                            CultureInfo.InvariantCulture) + file_extension;
+                //                            CultureInfo.InvariantCulture)+ file_extension;
                 //using (var stream = new FileStream(path, FileMode.Create))
                 //{
 
