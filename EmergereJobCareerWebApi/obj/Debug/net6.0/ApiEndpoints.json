@@ -226,8 +226,43 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "resume_id",
+        "Name": "candidateName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dateOfBirth",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fileToUpload",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "jobId",
         "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "joiningDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "aboutCandidate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "candidateEmail",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
