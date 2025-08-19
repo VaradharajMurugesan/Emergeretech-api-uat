@@ -74,33 +74,33 @@ namespace EmergereJobCareerWebApi.Controllers
 
         // POST api/<ValuesController>
         [HttpPost("UploadResume")]
-        public async Task<IActionResult> Post(int resume_id)
+        public async Task<IActionResult> Post([FromForm] InsertResumeDetail model)
         {
             try
             {
                 _logger.LogInfo("Invoked the Upload Resume API");
-                //if (model == null || model.FileToUpload == null || model.FileToUpload.Length == 0)
-                //    return Content("file not selected");
-                //string jobTitle = await _dbService.GetAsync<string>("SELECT JobTitle FROM tbl_Job_career WHERE job_id="+model.job_id, new {});
-                //var path = Path.Combine(Directory.GetCurrentDirectory(), "Resumes", model.FileToUpload.FileName);
-                //string file_extension = System.IO.Path.GetExtension(model.FileToUpload.FileName);
-                //string file_name = model.candidate_name + "_" + DateTime.UtcNow.ToString("yyyyMMddHHmmssfff",
-                //                            CultureInfo.InvariantCulture)+ file_extension;
-                //using (var stream = new FileStream(path, FileMode.Create))
-                //{
+                if (model == null || model.FileToUpload == null || model.FileToUpload.Length == 0)
+                    return Content("file not selected");
+                string jobTitle = await _dbService.GetAsync<string>("SELECT JobTitle FROM tbl_Job_career WHERE job_id=" + model.job_id, new { });
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "Resumes", model.FileToUpload.FileName);
+                string file_extension = System.IO.Path.GetExtension(model.FileToUpload.FileName);
+                string file_name = model.candidate_name + "_" + DateTime.UtcNow.ToString("yyyyMMddHHmmssfff",
+                                            CultureInfo.InvariantCulture) + file_extension;
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
 
-                //    await model.FileToUpload.CopyToAsync(stream);
-                //}
+                    await model.FileToUpload.CopyToAsync(stream);
+                }
 
-                //BlobServiceClient blobServiceClient = new BlobServiceClient(_connectingString);
-                //BlobContainerClient blobContainerClient = blobServiceClient.GetBlobContainerClient(_container);
-                //BlobClient blobClient = blobContainerClient.GetBlobClient(file_name);
-                //await blobClient.UploadAsync(path, true);
-                //var blobUrl = blobClient.Uri.AbsoluteUri;
+                BlobServiceClient blobServiceClient = new BlobServiceClient(_connectingString);
+                BlobContainerClient blobContainerClient = blobServiceClient.GetBlobContainerClient(_container);
+                BlobClient blobClient = blobContainerClient.GetBlobClient(file_name);
+                await blobClient.UploadAsync(path, true);
+                var blobUrl = blobClient.Uri.AbsoluteUri;
 
-                //var result = _resumeService.InsertResume(model, blobUrl);
+                var result = _resumeService.InsertResume(model, blobUrl);
 
-                //var emailResult = _resumeService.SendEmail(model, blobUrl, jobTitle);
+                var emailResult = _resumeService.SendEmail(model, blobUrl, jobTitle);
 
                 return Ok("File uploaded successfully.......");
 
